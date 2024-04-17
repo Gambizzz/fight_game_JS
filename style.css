@@ -1,0 +1,71 @@
+.my-character {
+  background-color: orange;
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  margin-bottom: 8%;
+}
+
+h2, h3 {
+  text-align: center;
+  color: plum;
+}
+
+#user-characters, #character-selection, #winner, #stats {
+  margin: 5% auto;
+  max-width: 90%;
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(212, 87, 29, 0.693);
+}
+
+#user-characters, #winner, #stats {
+  color : orangered;
+}
+
+
+#user-characters li {
+  list-style-type: none;
+}
+
+button {
+  display: block;
+  margin: 5% auto;
+  padding: 2% 4%;
+  background-color: rgba(84, 196, 233, 0.828);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(59, 206, 255, 0.834);
+}
+
+#clear {
+  display: block;
+  margin: 5% auto;
+  padding: 2% 4%;
+  background-color: #db239be6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#clear:hover {
+  background-color: #dc1195e6;
+}
+
